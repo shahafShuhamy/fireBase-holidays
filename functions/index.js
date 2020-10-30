@@ -8,7 +8,7 @@ const app = express();
 
 const COLLECTION_NAME = "events";
 
-
+app.use(cors({origin: true}));
 /**
  * method gets all events by date ascending
  */
